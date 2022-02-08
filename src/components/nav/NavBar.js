@@ -79,7 +79,7 @@ function NavBar() {
           </div>
         </div>
       </nav>
-      <ItemListContainer />
+      <ItemListContainer greetings="Bienvenidos!" />
     </div>
   );
 }
