@@ -1,7 +1,6 @@
 import React from "react";
 import CartWidget from "./cart/CartWidgetButton";
 import Logo from "./logo/Logo";
-import ItemListContainer from "../itemListContainer/ItemListContainer";
 
 function NavBar() {
   return (
@@ -79,7 +78,6 @@ function NavBar() {
           </div>
         </div>
       </nav>
-      <ItemListContainer greetings="Bienvenidos!" />
     </div>
   );
 }
